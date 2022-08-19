@@ -135,6 +135,7 @@
   margin: 5px;
   padding: 5px;
   font-size: 20px;
+  overflow: hidden;
 
   }
   #blue{
@@ -220,6 +221,26 @@
       width: 25rem;
     }
   }
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px){
+  .side-bar{background-color: white;}
+}
+/*small devices (portrait tablets and large phones, 600px and up*/
+@media only screen and (min-width: 600px){
+  
+}
+/*medium devices (landscape tablets, 768px and up)*/
+@media only screen and (min-width: 768px){
+  
+}
+/*large devices (laptop/desktops, 992px and up*/
+@media only screen and (min-width: 992px){
+  
+}
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px){
+  
+}
 
 
 
